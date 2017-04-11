@@ -40,18 +40,18 @@ BEGIN
 				PAUSE <= NOT PAUSE;
 			END IF;
 			IF RISING_EDGE (CLK_1HZ) AND PAUSE = '0' THEN
-				IF SECOND_HIGH = 5 and SECOND_LOW = 9 THEN
+				IF SECOND_HIGH = 5 AND SECOND_LOW = 9 THEN
 					SECOND_HIGH <= 0;
 					SECOND_LOW <= 0;
 					CO_SECOND <= '0';
-					IF MINUTE_HIGH = 5 and MINUTE_LOW = 9 THEN
+					IF MINUTE_HIGH = 5 AND MINUTE_LOW = 9 THEN
 						MINUTE_HIGH <= 0;
 						MINUTE_LOW <= 0;
-						IF HOUR_HIGH = 2 and HOUR_LOW = 3 THEN
+						IF HOUR_HIGH = 2 AND HOUR_LOW = 3 THEN
 							HOUR_HIGH <= 0;
 							HOUR_LOW <= 0;
 						ELSE
-							IF HOUR_LOW < 9 then
+							IF HOUR_LOW < 9 THEN
 								HOUR_LOW <= HOUR_LOW + 1;
 							ELSE
 								HOUR_HIGH <= HOUR_HIGH + 1;
@@ -59,7 +59,7 @@ BEGIN
 							END IF;
 						END IF;
 					ELSE
-						IF MINUTE_LOW < 9 then
+						IF MINUTE_LOW < 9 THEN
 							MINUTE_LOW <= MINUTE_LOW + 1;
 						ELSE
 							MINUTE_HIGH <= MINUTE_HIGH + 1;
@@ -67,7 +67,7 @@ BEGIN
 						END IF;
 					END IF;
 				ELSE
-					IF SECOND_LOW < 9 then
+					IF SECOND_LOW < 9 THEN
 						SECOND_LOW <= SECOND_LOW + 1;
 					ELSE
 						SECOND_HIGH <= SECOND_HIGH + 1;
