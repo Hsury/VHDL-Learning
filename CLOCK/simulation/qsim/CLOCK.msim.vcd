@@ -1,0 +1,716 @@
+$comment
+	File created using the following command:
+		vcd file CLOCK.msim.vcd -direction
+$end
+$date
+	Tue Apr 11 13:10:49 2017
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module clock_vhd_vec_tst $end
+$var wire 1 ! BUZZER $end
+$var wire 1 " CLK_50MHZ $end
+$var wire 1 # DUAN [7] $end
+$var wire 1 $ DUAN [6] $end
+$var wire 1 % DUAN [5] $end
+$var wire 1 & DUAN [4] $end
+$var wire 1 ' DUAN [3] $end
+$var wire 1 ( DUAN [2] $end
+$var wire 1 ) DUAN [1] $end
+$var wire 1 * DUAN [0] $end
+$var wire 1 + KEY_ENA $end
+$var wire 1 , KEY_RST $end
+$var wire 1 - WEI [5] $end
+$var wire 1 . WEI [4] $end
+$var wire 1 / WEI [3] $end
+$var wire 1 0 WEI [2] $end
+$var wire 1 1 WEI [1] $end
+$var wire 1 2 WEI [0] $end
+
+$scope module i1 $end
+$var wire 1 3 gnd $end
+$var wire 1 4 vcc $end
+$var wire 1 5 unknown $end
+$var wire 1 6 devoe $end
+$var wire 1 7 devclrn $end
+$var wire 1 8 devpor $end
+$var wire 1 9 ww_devoe $end
+$var wire 1 : ww_devclrn $end
+$var wire 1 ; ww_devpor $end
+$var wire 1 < ww_CLK_50MHZ $end
+$var wire 1 = ww_KEY_ENA $end
+$var wire 1 > ww_KEY_RST $end
+$var wire 1 ? ww_DUAN [7] $end
+$var wire 1 @ ww_DUAN [6] $end
+$var wire 1 A ww_DUAN [5] $end
+$var wire 1 B ww_DUAN [4] $end
+$var wire 1 C ww_DUAN [3] $end
+$var wire 1 D ww_DUAN [2] $end
+$var wire 1 E ww_DUAN [1] $end
+$var wire 1 F ww_DUAN [0] $end
+$var wire 1 G ww_WEI [5] $end
+$var wire 1 H ww_WEI [4] $end
+$var wire 1 I ww_WEI [3] $end
+$var wire 1 J ww_WEI [2] $end
+$var wire 1 K ww_WEI [1] $end
+$var wire 1 L ww_WEI [0] $end
+$var wire 1 M ww_BUZZER $end
+$var wire 1 N \U0|CLK_1KHZ~clkctrl_INCLK_bus\ [3] $end
+$var wire 1 O \U0|CLK_1KHZ~clkctrl_INCLK_bus\ [2] $end
+$var wire 1 P \U0|CLK_1KHZ~clkctrl_INCLK_bus\ [1] $end
+$var wire 1 Q \U0|CLK_1KHZ~clkctrl_INCLK_bus\ [0] $end
+$var wire 1 R \U0|CLK_1HZ~clkctrl_INCLK_bus\ [3] $end
+$var wire 1 S \U0|CLK_1HZ~clkctrl_INCLK_bus\ [2] $end
+$var wire 1 T \U0|CLK_1HZ~clkctrl_INCLK_bus\ [1] $end
+$var wire 1 U \U0|CLK_1HZ~clkctrl_INCLK_bus\ [0] $end
+$var wire 1 V \CLK_50MHZ~inputclkctrl_INCLK_bus\ [3] $end
+$var wire 1 W \CLK_50MHZ~inputclkctrl_INCLK_bus\ [2] $end
+$var wire 1 X \CLK_50MHZ~inputclkctrl_INCLK_bus\ [1] $end
+$var wire 1 Y \CLK_50MHZ~inputclkctrl_INCLK_bus\ [0] $end
+$var wire 1 Z \DUAN[0]~output_o\ $end
+$var wire 1 [ \DUAN[1]~output_o\ $end
+$var wire 1 \ \DUAN[2]~output_o\ $end
+$var wire 1 ] \DUAN[3]~output_o\ $end
+$var wire 1 ^ \DUAN[4]~output_o\ $end
+$var wire 1 _ \DUAN[5]~output_o\ $end
+$var wire 1 ` \DUAN[6]~output_o\ $end
+$var wire 1 a \DUAN[7]~output_o\ $end
+$var wire 1 b \WEI[0]~output_o\ $end
+$var wire 1 c \WEI[1]~output_o\ $end
+$var wire 1 d \WEI[2]~output_o\ $end
+$var wire 1 e \WEI[3]~output_o\ $end
+$var wire 1 f \WEI[4]~output_o\ $end
+$var wire 1 g \WEI[5]~output_o\ $end
+$var wire 1 h \BUZZER~output_o\ $end
+$var wire 1 i \CLK_50MHZ~input_o\ $end
+$var wire 1 j \CLK_50MHZ~inputclkctrl_outclk\ $end
+$var wire 1 k \U0|Add0~0_combout\ $end
+$var wire 1 l \U0|Add0~1\ $end
+$var wire 1 m \U0|Add0~2_combout\ $end
+$var wire 1 n \U0|Add0~3\ $end
+$var wire 1 o \U0|Add0~4_combout\ $end
+$var wire 1 p \U0|Add0~5\ $end
+$var wire 1 q \U0|Add0~6_combout\ $end
+$var wire 1 r \U0|Add0~7\ $end
+$var wire 1 s \U0|Add0~8_combout\ $end
+$var wire 1 t \U0|CNT_1KHZ~15_combout\ $end
+$var wire 1 u \U0|Add0~9\ $end
+$var wire 1 v \U0|Add0~10_combout\ $end
+$var wire 1 w \U0|Add0~11\ $end
+$var wire 1 x \U0|Add0~13\ $end
+$var wire 1 y \U0|Add0~14_combout\ $end
+$var wire 1 z \U0|Add0~15\ $end
+$var wire 1 { \U0|Add0~16_combout\ $end
+$var wire 1 | \U0|CNT_1KHZ~19_combout\ $end
+$var wire 1 } \U0|Add0~17\ $end
+$var wire 1 ~ \U0|Add0~18_combout\ $end
+$var wire 1 !! \U0|CNT_1KHZ~16_combout\ $end
+$var wire 1 "! \U0|Add0~19\ $end
+$var wire 1 #! \U0|Add0~20_combout\ $end
+$var wire 1 $! \U0|Add0~21\ $end
+$var wire 1 %! \U0|Add0~22_combout\ $end
+$var wire 1 &! \U0|Add0~23\ $end
+$var wire 1 '! \U0|Add0~24_combout\ $end
+$var wire 1 (! \U0|Add0~25\ $end
+$var wire 1 )! \U0|Add0~26_combout\ $end
+$var wire 1 *! \U0|Equal0~3_combout\ $end
+$var wire 1 +! \U0|Equal0~0_combout\ $end
+$var wire 1 ,! \U0|CNT_1KHZ~12_combout\ $end
+$var wire 1 -! \U0|Add0~27\ $end
+$var wire 1 .! \U0|Add0~29\ $end
+$var wire 1 /! \U0|Add0~30_combout\ $end
+$var wire 1 0! \U0|CNT_1KHZ~18_combout\ $end
+$var wire 1 1! \U0|CNT_1KHZ~14_combout\ $end
+$var wire 1 2! \U0|Add0~12_combout\ $end
+$var wire 1 3! \U0|CNT_1KHZ~17_combout\ $end
+$var wire 1 4! \U0|CNT_1KHZ~13_combout\ $end
+$var wire 1 5! \U0|Add0~28_combout\ $end
+$var wire 1 6! \U0|CNT_1KHZ~20_combout\ $end
+$var wire 1 7! \U0|CLK_1KHZ~1_combout\ $end
+$var wire 1 8! \U0|CLK_1KHZ~0_combout\ $end
+$var wire 1 9! \U0|CLK_1KHZ~2_combout\ $end
+$var wire 1 :! \U0|Equal0~1_combout\ $end
+$var wire 1 ;! \U0|Equal0~2_combout\ $end
+$var wire 1 <! \U0|CLK_1KHZ~3_combout\ $end
+$var wire 1 =! \U0|CLK_1KHZ~q\ $end
+$var wire 1 >! \U0|CLK_1KHZ~clkctrl_outclk\ $end
+$var wire 1 ?! \U4|CURSOR[0]~0_combout\ $end
+$var wire 1 @! \U0|Add1~0_combout\ $end
+$var wire 1 A! \U0|Add1~1\ $end
+$var wire 1 B! \U0|Add1~2_combout\ $end
+$var wire 1 C! \U0|Add1~3\ $end
+$var wire 1 D! \U0|Add1~4_combout\ $end
+$var wire 1 E! \U0|Add1~5\ $end
+$var wire 1 F! \U0|Add1~6_combout\ $end
+$var wire 1 G! \U0|Add1~9\ $end
+$var wire 1 H! \U0|Add1~10_combout\ $end
+$var wire 1 I! \U0|CNT_1HZ~5_combout\ $end
+$var wire 1 J! \U0|Add1~11\ $end
+$var wire 1 K! \U0|Add1~12_combout\ $end
+$var wire 1 L! \U0|CNT_1HZ~4_combout\ $end
+$var wire 1 M! \U0|Add1~13\ $end
+$var wire 1 N! \U0|Add1~14_combout\ $end
+$var wire 1 O! \U0|CNT_1HZ~3_combout\ $end
+$var wire 1 P! \U0|Add1~15\ $end
+$var wire 1 Q! \U0|Add1~16_combout\ $end
+$var wire 1 R! \U0|CNT_1HZ~2_combout\ $end
+$var wire 1 S! \U0|Equal4~0_combout\ $end
+$var wire 1 T! \U0|Add1~17\ $end
+$var wire 1 U! \U0|Add1~18_combout\ $end
+$var wire 1 V! \U0|CNT_1HZ~7_combout\ $end
+$var wire 1 W! \U0|CNT_1HZ~0_combout\ $end
+$var wire 1 X! \U0|CNT_1HZ~1_combout\ $end
+$var wire 1 Y! \U0|CNT_1HZ~6_combout\ $end
+$var wire 1 Z! \U0|Add1~7\ $end
+$var wire 1 [! \U0|Add1~8_combout\ $end
+$var wire 1 \! \U0|CLK_1HZ~0_combout\ $end
+$var wire 1 ]! \U0|CLK_1HZ~1_combout\ $end
+$var wire 1 ^! \U0|CLK_1HZ~3_combout\ $end
+$var wire 1 _! \U0|CLK_1HZ~2_combout\ $end
+$var wire 1 `! \U0|CLK_1HZ~4_combout\ $end
+$var wire 1 a! \U0|CLK_1HZ~feeder_combout\ $end
+$var wire 1 b! \U0|CLK_1HZ~q\ $end
+$var wire 1 c! \U0|CLK_1HZ~clkctrl_outclk\ $end
+$var wire 1 d! \U1|SECOND_LOW~1_combout\ $end
+$var wire 1 e! \KEY_RST~input_o\ $end
+$var wire 1 f! \U3|CNT_KEY_DOWN[0]~1_combout\ $end
+$var wire 1 g! \U3|CNT_KEY_DOWN[1]~2_combout\ $end
+$var wire 1 h! \U3|Add0~0_combout\ $end
+$var wire 1 i! \U3|CNT_KEY_DOWN[2]~3_combout\ $end
+$var wire 1 j! \U3|CNT_KEY_DOWN[3]~0_combout\ $end
+$var wire 1 k! \U3|LessThan0~0_combout\ $end
+$var wire 1 l! \U3|CNT_KEY_UP[3]~2_combout\ $end
+$var wire 1 m! \U3|CNT_KEY_UP[1]~5_combout\ $end
+$var wire 1 n! \U3|CNT_KEY_UP[0]~3_combout\ $end
+$var wire 1 o! \U3|CNT_KEY_UP[0]~4_combout\ $end
+$var wire 1 p! \U3|Add1~0_combout\ $end
+$var wire 1 q! \U3|CNT_KEY_UP[2]~6_combout\ $end
+$var wire 1 r! \U3|CNT_KEY_UP[0]~0_combout\ $end
+$var wire 1 s! \U3|CNT_KEY_UP[3]~1_combout\ $end
+$var wire 1 t! \U3|KEY_OUT~0_combout\ $end
+$var wire 1 u! \U3|KEY_OUT~feeder_combout\ $end
+$var wire 1 v! \U3|KEY_OUT~q\ $end
+$var wire 1 w! \KEY_ENA~input_o\ $end
+$var wire 1 x! \U2|CNT_KEY_DOWN[0]~1_combout\ $end
+$var wire 1 y! \U2|CNT_KEY_DOWN[1]~2_combout\ $end
+$var wire 1 z! \U2|Add0~0_combout\ $end
+$var wire 1 {! \U2|CNT_KEY_DOWN[2]~3_combout\ $end
+$var wire 1 |! \U2|CNT_KEY_DOWN[3]~0_combout\ $end
+$var wire 1 }! \U2|LessThan0~0_combout\ $end
+$var wire 1 ~! \U2|Add1~0_combout\ $end
+$var wire 1 !" \U2|CNT_KEY_UP[2]~6_combout\ $end
+$var wire 1 "" \U2|CNT_KEY_UP[3]~2_combout\ $end
+$var wire 1 #" \U2|CNT_KEY_UP[0]~3_combout\ $end
+$var wire 1 $" \U2|CNT_KEY_UP[0]~4_combout\ $end
+$var wire 1 %" \U2|CNT_KEY_UP[1]~5_combout\ $end
+$var wire 1 &" \U2|CNT_KEY_UP[0]~0_combout\ $end
+$var wire 1 '" \U2|CNT_KEY_UP[3]~1_combout\ $end
+$var wire 1 (" \U2|KEY_OUT~0_combout\ $end
+$var wire 1 )" \U2|KEY_OUT~feeder_combout\ $end
+$var wire 1 *" \U2|KEY_OUT~q\ $end
+$var wire 1 +" \U1|PAUSE~0_combout\ $end
+$var wire 1 ," \U1|PAUSE~feeder_combout\ $end
+$var wire 1 -" \U1|PAUSE~q\ $end
+$var wire 1 ." \U1|SECOND_LOW~0_combout\ $end
+$var wire 1 /" \U1|SECOND_LOW~3_combout\ $end
+$var wire 1 0" \U1|SECOND_LOW~2_combout\ $end
+$var wire 1 1" \U1|process_0~2_combout\ $end
+$var wire 1 2" \U1|LessThan2~0_combout\ $end
+$var wire 1 3" \U1|SECOND_HIGH[0]~2_combout\ $end
+$var wire 1 4" \U1|SECOND_HIGH~4_combout\ $end
+$var wire 1 5" \U1|SECOND_HIGH[2]~3_combout\ $end
+$var wire 1 6" \U1|SECOND_HIGH~5_combout\ $end
+$var wire 1 7" \U4|DATA_OUT[1]~1_combout\ $end
+$var wire 1 8" \U1|MINUTE_LOW~2_combout\ $end
+$var wire 1 9" \U1|process_0~3_combout\ $end
+$var wire 1 :" \U1|MINUTE_LOW[3]~1_combout\ $end
+$var wire 1 ;" \U1|MINUTE_LOW~3_combout\ $end
+$var wire 1 <" \U1|MINUTE_LOW~4_combout\ $end
+$var wire 1 =" \U1|MINUTE_LOW~0_combout\ $end
+$var wire 1 >" \U1|process_0~5_combout\ $end
+$var wire 1 ?" \U1|MINUTE_HIGH[0]~3_combout\ $end
+$var wire 1 @" \U1|LessThan1~0_combout\ $end
+$var wire 1 A" \U1|MINUTE_HIGH[2]~0_combout\ $end
+$var wire 1 B" \U1|MINUTE_HIGH~2_combout\ $end
+$var wire 1 C" \U1|MINUTE_HIGH~1_combout\ $end
+$var wire 1 D" \U4|CNT~1_combout\ $end
+$var wire 1 E" \U4|CNT~0_combout\ $end
+$var wire 1 F" \U1|process_0~6_combout\ $end
+$var wire 1 G" \U1|HOUR_HIGH[0]~0_combout\ $end
+$var wire 1 H" \U1|HOUR_LOW~8_combout\ $end
+$var wire 1 I" \U1|HOUR_LOW[3]~5_combout\ $end
+$var wire 1 J" \U1|process_0~7_combout\ $end
+$var wire 1 K" \U1|HOUR_LOW~7_combout\ $end
+$var wire 1 L" \U1|process_0~4_combout\ $end
+$var wire 1 M" \U1|HOUR_HIGH[1]~2_combout\ $end
+$var wire 1 N" \U1|HOUR_HIGH[0]~1_combout\ $end
+$var wire 1 O" \U1|HOUR_LOW[3]~2_combout\ $end
+$var wire 1 P" \U1|HOUR_LOW[3]~3_combout\ $end
+$var wire 1 Q" \U1|HOUR_LOW~4_combout\ $end
+$var wire 1 R" \U1|HOUR_LOW~6_combout\ $end
+$var wire 1 S" \U4|Mux2~0_combout\ $end
+$var wire 1 T" \U4|Mux2~1_combout\ $end
+$var wire 1 U" \U4|Mux0~0_combout\ $end
+$var wire 1 V" \U4|Mux0~1_combout\ $end
+$var wire 1 W" \U4|Mux1~0_combout\ $end
+$var wire 1 X" \U4|Mux1~1_combout\ $end
+$var wire 1 Y" \U4|Mux1~2_combout\ $end
+$var wire 1 Z" \U4|DATA_OUT[0]~0_combout\ $end
+$var wire 1 [" \U4|Mux3~0_combout\ $end
+$var wire 1 \" \U4|Mux3~1_combout\ $end
+$var wire 1 ]" \U6|Mux7~0_combout\ $end
+$var wire 1 ^" \U6|Mux6~0_combout\ $end
+$var wire 1 _" \U6|Mux5~0_combout\ $end
+$var wire 1 `" \U6|Mux4~0_combout\ $end
+$var wire 1 a" \U6|Mux3~0_combout\ $end
+$var wire 1 b" \U6|Mux2~0_combout\ $end
+$var wire 1 c" \U6|Mux1~0_combout\ $end
+$var wire 1 d" \U4|Mux4~0_combout\ $end
+$var wire 1 e" \U4|DP_OUT~q\ $end
+$var wire 1 f" \U6|Mux0~0_combout\ $end
+$var wire 1 g" \U4|CURSOR[2]~feeder_combout\ $end
+$var wire 1 h" \U4|CURSOR[1]~feeder_combout\ $end
+$var wire 1 i" \U5|RotateRight0~0_combout\ $end
+$var wire 1 j" \U5|RotateRight0~1_combout\ $end
+$var wire 1 k" \U5|RotateRight0~2_combout\ $end
+$var wire 1 l" \U5|RotateRight0~3_combout\ $end
+$var wire 1 m" \U5|RotateRight0~4_combout\ $end
+$var wire 1 n" \U5|RotateRight0~5_combout\ $end
+$var wire 1 o" \U1|process_0~8_combout\ $end
+$var wire 1 p" \U1|CO_SECOND~q\ $end
+$var wire 1 q" \U1|MINUTE_HIGH\ [2] $end
+$var wire 1 r" \U1|MINUTE_HIGH\ [1] $end
+$var wire 1 s" \U1|MINUTE_HIGH\ [0] $end
+$var wire 1 t" \U4|DATA_OUT\ [3] $end
+$var wire 1 u" \U4|DATA_OUT\ [2] $end
+$var wire 1 v" \U4|DATA_OUT\ [1] $end
+$var wire 1 w" \U4|DATA_OUT\ [0] $end
+$var wire 1 x" \U1|HOUR_LOW\ [3] $end
+$var wire 1 y" \U1|HOUR_LOW\ [2] $end
+$var wire 1 z" \U1|HOUR_LOW\ [1] $end
+$var wire 1 {" \U1|HOUR_LOW\ [0] $end
+$var wire 1 |" \U4|CURSOR\ [2] $end
+$var wire 1 }" \U4|CURSOR\ [1] $end
+$var wire 1 ~" \U4|CURSOR\ [0] $end
+$var wire 1 !# \U1|SECOND_LOW\ [3] $end
+$var wire 1 "# \U1|SECOND_LOW\ [2] $end
+$var wire 1 ## \U1|SECOND_LOW\ [1] $end
+$var wire 1 $# \U1|SECOND_LOW\ [0] $end
+$var wire 1 %# \U1|SECOND_HIGH\ [2] $end
+$var wire 1 &# \U1|SECOND_HIGH\ [1] $end
+$var wire 1 '# \U1|SECOND_HIGH\ [0] $end
+$var wire 1 (# \U3|CNT_KEY_DOWN\ [3] $end
+$var wire 1 )# \U3|CNT_KEY_DOWN\ [2] $end
+$var wire 1 *# \U3|CNT_KEY_DOWN\ [1] $end
+$var wire 1 +# \U3|CNT_KEY_DOWN\ [0] $end
+$var wire 1 ,# \U1|MINUTE_LOW\ [3] $end
+$var wire 1 -# \U1|MINUTE_LOW\ [2] $end
+$var wire 1 .# \U1|MINUTE_LOW\ [1] $end
+$var wire 1 /# \U1|MINUTE_LOW\ [0] $end
+$var wire 1 0# \U1|HOUR_HIGH\ [1] $end
+$var wire 1 1# \U1|HOUR_HIGH\ [0] $end
+$var wire 1 2# \U0|CNT_1KHZ\ [15] $end
+$var wire 1 3# \U0|CNT_1KHZ\ [14] $end
+$var wire 1 4# \U0|CNT_1KHZ\ [13] $end
+$var wire 1 5# \U0|CNT_1KHZ\ [12] $end
+$var wire 1 6# \U0|CNT_1KHZ\ [11] $end
+$var wire 1 7# \U0|CNT_1KHZ\ [10] $end
+$var wire 1 8# \U0|CNT_1KHZ\ [9] $end
+$var wire 1 9# \U0|CNT_1KHZ\ [8] $end
+$var wire 1 :# \U0|CNT_1KHZ\ [7] $end
+$var wire 1 ;# \U0|CNT_1KHZ\ [6] $end
+$var wire 1 <# \U0|CNT_1KHZ\ [5] $end
+$var wire 1 =# \U0|CNT_1KHZ\ [4] $end
+$var wire 1 ># \U0|CNT_1KHZ\ [3] $end
+$var wire 1 ?# \U0|CNT_1KHZ\ [2] $end
+$var wire 1 @# \U0|CNT_1KHZ\ [1] $end
+$var wire 1 A# \U0|CNT_1KHZ\ [0] $end
+$var wire 1 B# \U4|CNT\ [2] $end
+$var wire 1 C# \U4|CNT\ [1] $end
+$var wire 1 D# \U4|CNT\ [0] $end
+$var wire 1 E# \U0|CNT_1HZ\ [9] $end
+$var wire 1 F# \U0|CNT_1HZ\ [8] $end
+$var wire 1 G# \U0|CNT_1HZ\ [7] $end
+$var wire 1 H# \U0|CNT_1HZ\ [6] $end
+$var wire 1 I# \U0|CNT_1HZ\ [5] $end
+$var wire 1 J# \U0|CNT_1HZ\ [4] $end
+$var wire 1 K# \U0|CNT_1HZ\ [3] $end
+$var wire 1 L# \U0|CNT_1HZ\ [2] $end
+$var wire 1 M# \U0|CNT_1HZ\ [1] $end
+$var wire 1 N# \U0|CNT_1HZ\ [0] $end
+$var wire 1 O# \U3|CNT_KEY_UP\ [3] $end
+$var wire 1 P# \U3|CNT_KEY_UP\ [2] $end
+$var wire 1 Q# \U3|CNT_KEY_UP\ [1] $end
+$var wire 1 R# \U3|CNT_KEY_UP\ [0] $end
+$var wire 1 S# \U2|CNT_KEY_UP\ [3] $end
+$var wire 1 T# \U2|CNT_KEY_UP\ [2] $end
+$var wire 1 U# \U2|CNT_KEY_UP\ [1] $end
+$var wire 1 V# \U2|CNT_KEY_UP\ [0] $end
+$var wire 1 W# \U2|CNT_KEY_DOWN\ [3] $end
+$var wire 1 X# \U2|CNT_KEY_DOWN\ [2] $end
+$var wire 1 Y# \U2|CNT_KEY_DOWN\ [1] $end
+$var wire 1 Z# \U2|CNT_KEY_DOWN\ [0] $end
+$var wire 1 [# \U1|ALT_INV_PAUSE~q\ $end
+$var wire 1 \# \U3|ALT_INV_KEY_OUT~q\ $end
+$var wire 1 ]# \U4|ALT_INV_CNT\ [2] $end
+$var wire 1 ^# \U1|ALT_INV_CO_SECOND~q\ $end
+$var wire 1 _# \U4|ALT_INV_CURSOR\ [0] $end
+$var wire 1 `# \U6|ALT_INV_Mux1~0_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+0+
+0,
+03
+14
+x5
+16
+17
+18
+19
+1:
+1;
+0<
+0=
+0>
+1M
+0Z
+0[
+0\
+0]
+0^
+0_
+1`
+1a
+1b
+1c
+1d
+1e
+0f
+1g
+1h
+0i
+0j
+1k
+0l
+0m
+1n
+0o
+0p
+0q
+1r
+0s
+0t
+0u
+0v
+1w
+0x
+0y
+1z
+0{
+0|
+0}
+0~
+0!!
+1"!
+0#!
+0$!
+0%!
+1&!
+0'!
+0(!
+0)!
+1*!
+1+!
+0,!
+1-!
+0.!
+0/!
+00!
+01!
+02!
+03!
+04!
+05!
+06!
+07!
+08!
+19!
+1:!
+1;!
+1<!
+0=!
+0>!
+1?!
+1@!
+0A!
+0B!
+1C!
+0D!
+0E!
+0F!
+0G!
+0H!
+0I!
+1J!
+0K!
+0L!
+0M!
+0N!
+0O!
+1P!
+0Q!
+0R!
+0S!
+0T!
+0U!
+0V!
+0W!
+0X!
+0Y!
+1Z!
+0[!
+0\!
+1]!
+1^!
+1_!
+1`!
+1a!
+0b!
+0c!
+0d!
+0e!
+1f!
+0g!
+0h!
+0i!
+0j!
+0k!
+0l!
+0m!
+1n!
+0o!
+0p!
+0q!
+0r!
+0s!
+0t!
+0u!
+0v!
+0w!
+1x!
+0y!
+0z!
+0{!
+0|!
+0}!
+0~!
+0!"
+0""
+1#"
+0$"
+0%"
+0&"
+0'"
+0("
+0)"
+0*"
+1+"
+1,"
+0-"
+1."
+0/"
+00"
+01"
+12"
+03"
+04"
+05"
+06"
+07"
+08"
+09"
+0:"
+0;"
+0<"
+1="
+0>"
+1?"
+1@"
+0A"
+0B"
+0C"
+0D"
+0E"
+0F"
+0G"
+0H"
+0I"
+0J"
+0K"
+0L"
+0M"
+0N"
+1O"
+1P"
+1Q"
+0R"
+0S"
+0T"
+0U"
+0V"
+0W"
+0X"
+0Y"
+0Z"
+0["
+0\"
+0]"
+0^"
+0_"
+0`"
+0a"
+0b"
+0c"
+0d"
+0e"
+1f"
+0g"
+0h"
+1i"
+1j"
+1k"
+1l"
+0m"
+1n"
+0o"
+0p"
+1[#
+1\#
+1^#
+1`#
+1#
+1$
+0%
+0&
+0'
+0(
+0)
+0*
+1-
+0.
+1/
+10
+11
+12
+1?
+1@
+0A
+0B
+0C
+0D
+0E
+0F
+1G
+0H
+1I
+1J
+1K
+1L
+0q"
+0r"
+0s"
+0t"
+0u"
+0v"
+0w"
+0x"
+0y"
+0z"
+0{"
+0|"
+0}"
+0~"
+0!#
+0"#
+0##
+0$#
+0%#
+0&#
+0'#
+0(#
+0)#
+0*#
+0+#
+0,#
+0-#
+0.#
+0/#
+00#
+01#
+02#
+03#
+04#
+05#
+06#
+07#
+08#
+09#
+0:#
+0;#
+0<#
+0=#
+0>#
+0?#
+0@#
+0A#
+0B#
+0C#
+xD#
+0E#
+0F#
+0G#
+0H#
+0I#
+0J#
+0K#
+0L#
+0M#
+0N#
+0O#
+0P#
+0Q#
+0R#
+0S#
+0T#
+0U#
+0V#
+0W#
+0X#
+0Y#
+0Z#
+1]#
+1_#
+1V
+1W
+1X
+0Y
+1N
+1O
+1P
+0Q
+1R
+1S
+1T
+0U
+$end
+#1000000

@@ -1,0 +1,69 @@
+--滴答走时模块 2017/04/11
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY TICK IS
+	PORT (CLK_1HZ : IN STD_LOGIC;	--1Hz时钟
+	      ENA : IN STD_LOGIC;	--时钟使能
+	      RST : IN STD_LOGIC;	--时钟复位
+	      HOUR_HIGH : BUFFER INTEGER RANGE 0 TO 2 := 2;
+	      HOUR_LOW : BUFFER INTEGER RANGE 0 TO 9 := 3;
+	      MINUTE_HIGH : BUFFER INTEGER RANGE 0 TO 5 := 5;
+	      MINUTE_LOW : BUFFER INTEGER RANGE 0 TO 9 := 9;
+	      SECOND_HIGH : BUFFER INTEGER RANGE 0 TO 5 := 0;
+	      SECOND_LOW : BUFFER INTEGER RANGE 0 TO 9 := 0;
+	      CO_DAY : OUT STD_LOGIC);	--新的一天
+END FREQ_DIV;
+
+ARCHITECTURE BEHAV OF TICK IS
+BEGIN
+	PROCESS (CLK_1HZ)
+	BEGIN
+		IF RST = '0' THEN
+			HOUR_HIGH <= 0;
+			HOUR_LOW <= 0;
+			MINUTE_HIGH <= 0;
+			MINUTE_LOW <= 0;
+			SECOND_HIGH <= 0;
+			SECOND_LOW <= 0;
+			CO_DAY <= '0';
+		ELSE
+			IF RISING_EDGE (CLK_1HZ) AND ENA = '1' THEN
+				IF SECOND_HIGH = 5 and SECOND_LOW = 9 THEN
+					SECOND_HIGH <= 0;
+					SECOND_LOW <= 0;
+					IF MINUTE_HIGH = 5 and MINUTE_LOW = 9 THEN
+						MINUTE_HIGH <= 0;
+						MINUTE_LOW <= 0;
+						IF HOUR_HIGH = 2 and HOUR_LOW = 3 THEN
+							HOUR_HIGH <= 0;
+							HOUR_LOW <= 0;
+							CO_DAY <= '1';
+						ELSE
+							IF HOUR_LOW < 9 then
+								HOUR_LOW <= HOUR_LOW + 1;
+							ELSE
+								HOUR_HIGH <= HOUR_HIGH + 1;
+								HOUR_LOW <= 0;
+							END IF;
+						END IF;
+					ELSE
+						IF MINUTE_LOW < 9 then
+							MINUTE_LOW <= MINUTE_LOW + 1;
+						ELSE
+							MINUTE_HIGH <= MINUTE_HIGH + 1;
+							MINUTE_LOW <= 0;
+						END IF;
+					END IF;
+				ELSE
+					IF SECOND_LOW < 9 then
+						SECOND_LOW <= SECOND_LOW + 1;
+					ELSE
+						SECOND_HIGH <= SECOND_HIGH + 1;
+						SECOND_LOW <= 0;
+					END IF;
+					CO_DAY <= '0';
+				END IF;
+			END IF;
+		END IF;
+END BEHAV;

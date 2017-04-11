@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Develop/FPGA/Project/CLOCK/simulation/qsim
+Eclock
+Z1 w1491887448
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 K`kJb<]?z4U5EbkG_:lMO3
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 HFZ8mBI5?[8TM9e2YGWCa2
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 zWCf]NF6heG=Dhmc@B0=T2
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 _Q9E2TD5YB<<@P0[5jYTG0
+R0
+Z10 8CLOCK.vho
+Z11 FCLOCK.vho
+l0
+L37
+V;d5MB_PRlOoG[R>@P0k@^1
+!s100 oFc;gFDg^mnniaFEW5TkO2
+Z12 OV;C;10.5b;63
+32
+Z13 !s110 1491887449
+!i10b 1
+Z14 !s108 1491887449.000000
+Z15 !s90 -work|work|CLOCK.vho|
+Z16 !s107 CLOCK.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 5 clock 0 22 ;d5MB_PRlOoG[R>@P0k@^1
+l321
+L69
+V_D2SM?Sc5LPS1]1TP^FhP2
+!s100 7Y@mJQ4VZd=f]I7_K>Y4i1
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Eclock_vhd_vec_tst
+Z19 w1491887447
+R7
+R8
+R0
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L32
+V[`_4_RU6]UdC[D=CJf7Vi1
+!s100 1:BGKH1<n[FP8V_FzMRbi1
+R12
+32
+R13
+!i10b 1
+R14
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 1
+R17
+R18
+Aclock_arch
+R7
+R8
+Z24 DEx4 work 17 clock_vhd_vec_tst 0 22 [`_4_RU6]UdC[D=CJf7Vi1
+l53
+L34
+VK^U4ITE_hcBIYG6El9Y1@2
+!s100 fGUG_6RKXM2fiOJ?kjXLG2
+R12
+32
+R13
+!i10b 1
+R14
+R22
+R23
+!i113 1
+R17
+R18
