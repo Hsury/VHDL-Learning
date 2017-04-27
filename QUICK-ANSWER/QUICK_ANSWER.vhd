@@ -1,0 +1,54 @@
+--抢答器顶层设计文件 2017/04/27
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY QUICK_ANSWER IS
+	PORT (CLK_50MHZ : IN STD_LOGIC;	--50MHz时钟
+	      KEY_MASTER : IN STD_LOGIC;	--主持人按键
+	      KEY_CLIENT : IN STD_LOGIC_VECTOR (2 DOWNTO 0);	--客户端按键
+	      LED : OUT STD_LOGIC_VECTOR (3 DOWNTO 0));	--状态指示灯
+END QUICK_ANSWER;
+
+ARCHITECTURE BEHAV OF QUICK_ANSWER IS
+	COMPONENT FREQ_DIV IS	--时钟分频模块
+		PORT (CLK_50MHZ : IN STD_LOGIC;	--50MHz时钟
+		      CLK_1KHZ : BUFFER STD_LOGIC);	--1KHz时钟
+	END COMPONENT;
+	
+	COMPONENT FLOW_CTRL IS	--流程控制模块
+		PORT (CLK_50MHZ : IN STD_LOGIC;	--50MHz时钟
+		      KEY_MASTER : IN STD_LOGIC;	--主持人按键
+		      KEY_CLIENT : IN STD_LOGIC_VECTOR (2 DOWNTO 0);	--客户端按键
+		      LED : OUT STD_LOGIC_VECTOR (3 DOWNTO 0));	--状态指示灯
+	END COMPONENT;
+	
+	COMPONENT KEY_SCAN IS	--按键消抖模块
+		GENERIC (KEY_TRIGGER : STD_LOGIC := '0');	--配置按键触发电平
+		PORT (CLK_1KHZ : IN STD_LOGIC;	--1KHz时钟
+		      KEY_IN : IN STD_LOGIC;	--按键输入
+		      KEY_OUT : OUT STD_LOGIC := NOT KEY_TRIGGER);	--按键输出
+	END COMPONENT;
+	
+	SIGNAL CLK_1KHZ : STD_LOGIC;
+	SIGNAL KEY_MASTER_REAL : STD_LOGIC;
+	SIGNAL KEY_CLIENT_REAL : STD_LOGIC_VECTOR (2 DOWNTO 0);
+BEGIN
+	U0 : FREQ_DIV PORT MAP (CLK_50MHZ => CLK_50MHZ,
+	                        CLK_1KHZ => CLK_1KHZ);
+	U1 : FLOW_CTRL PORT MAP (CLK_50MHZ => CLK_50MHZ,
+	                         KEY_MASTER => KEY_MASTER_REAL,
+	                         KEY_CLIENT => KEY_CLIENT_REAL,
+	                         LED => LED);								
+	U2 : KEY_SCAN PORT MAP (CLK_1KHZ => CLK_1KHZ,
+	                        KEY_IN => KEY_MASTER,
+	                        KEY_OUT => KEY_MASTER_REAL);
+	U3 : KEY_SCAN PORT MAP (CLK_1KHZ => CLK_1KHZ,
+	                        KEY_IN => KEY_CLIENT(0),
+	                        KEY_OUT => KEY_CLIENT_REAL(0));
+	U4 : KEY_SCAN PORT MAP (CLK_1KHZ => CLK_1KHZ,
+	                        KEY_IN => KEY_CLIENT(1),
+	                        KEY_OUT => KEY_CLIENT_REAL(1));
+	U5 : KEY_SCAN PORT MAP (CLK_1KHZ => CLK_1KHZ,
+	                        KEY_IN => KEY_CLIENT(2),
+	                        KEY_OUT => KEY_CLIENT_REAL(2));
+END BEHAV;

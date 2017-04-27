@@ -1,0 +1,147 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Develop/FPGA/Project/QUICK-ANSWER/simulation/qsim
+Ehard_block
+Z1 w1493276849
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 K`kJb<]?z4U5EbkG_:lMO3
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 HFZ8mBI5?[8TM9e2YGWCa2
+R0
+Z8 8QUICK-ANSWER.vho
+Z9 FQUICK-ANSWER.vho
+l0
+L35
+VB]0;STalBkCB1_B4BXQDW2
+!s100 >mXi5[`cD`bFC`UBKA<om3
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1493276850
+!i10b 1
+Z12 !s108 1493276850.000000
+Z13 !s90 -work|work|QUICK-ANSWER.vho|
+Z14 !s107 QUICK-ANSWER.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 B]0;STalBkCB1_B4BXQDW2
+l65
+L51
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Equick_answer
+Z17 w1493277619
+R3
+R7
+R2
+Z18 DPx6 altera 11 dffeas_pack 0 22 zWCf]NF6heG=Dhmc@B0=T2
+R4
+R5
+R6
+Z19 DPx6 altera 28 altera_primitives_components 0 22 _Q9E2TD5YB<<@P0[5jYTG0
+R0
+R8
+R9
+l0
+L37
+VH_:FgdM2a<VCjB0:]Leg@1
+!s100 oT2YDh3S<_^2>gOIU_ReI1
+R10
+32
+Z20 !s110 1493277620
+!i10b 1
+Z21 !s108 1493277619.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R18
+R4
+R5
+R6
+R19
+DEx4 work 12 quick_answer 0 22 H_:FgdM2a<VCjB0:]Leg@1
+l214
+L58
+VXA1UFORD3;UgPG6N8E3BZ1
+!s100 QG?JfXoZSD=IaL?n?NOd82
+R10
+32
+R20
+!i10b 1
+R21
+R13
+R14
+!i113 1
+R15
+R16
+Equick_answer_vhd_vec_tst
+Z22 w1493277618
+R5
+R6
+R0
+Z23 8Waveform.vwf.vht
+Z24 FWaveform.vwf.vht
+l0
+L32
+VSD7Fe@oVh3>;RUc8_f5RU3
+!s100 82H0BecJo<nLbS8`WEC8^3
+R10
+32
+R20
+!i10b 1
+Z25 !s108 1493277620.000000
+Z26 !s90 -work|work|Waveform.vwf.vht|
+Z27 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Aquick_answer_arch
+R5
+R6
+Z28 DEx4 work 24 quick_answer_vhd_vec_tst 0 22 SD7Fe@oVh3>;RUc8_f5RU3
+l49
+L34
+Z29 V^YJL^h8YVKUM6N@oW?;im2
+Z30 !s100 S_U74LNcgd<5TU8G`1PTI3
+R10
+32
+R20
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R15
+R16

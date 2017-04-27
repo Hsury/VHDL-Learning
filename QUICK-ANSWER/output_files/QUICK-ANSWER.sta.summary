@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLK_50MHZ'
+Slack : -3.984
+TNS   : -34.914
+
+Type  : Slow 1200mV 85C Model Setup 'FLOW_CTRL:U1|ST'
+Slack : -2.492
+TNS   : -7.473
+
+Type  : Slow 1200mV 85C Model Setup 'FREQ_DIV:U0|CLK_1KHZ'
+Slack : -1.155
+TNS   : -30.405
+
+Type  : Slow 1200mV 85C Model Hold 'FREQ_DIV:U0|CLK_1KHZ'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLK_50MHZ'
+Slack : 0.525
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'FLOW_CTRL:U1|ST'
+Slack : 1.969
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK_50MHZ'
+Slack : -3.000
+TNS   : -29.766
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FREQ_DIV:U0|CLK_1KHZ'
+Slack : -1.487
+TNS   : -53.532
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FLOW_CTRL:U1|ST'
+Slack : 0.469
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'CLK_50MHZ'
+Slack : -3.736
+TNS   : -30.331
+
+Type  : Slow 1200mV 0C Model Setup 'FLOW_CTRL:U1|ST'
+Slack : -2.402
+TNS   : -7.206
+
+Type  : Slow 1200mV 0C Model Setup 'FREQ_DIV:U0|CLK_1KHZ'
+Slack : -0.940
+TNS   : -24.305
+
+Type  : Slow 1200mV 0C Model Hold 'FREQ_DIV:U0|CLK_1KHZ'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLK_50MHZ'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FLOW_CTRL:U1|ST'
+Slack : 2.020
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK_50MHZ'
+Slack : -3.000
+TNS   : -29.766
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FREQ_DIV:U0|CLK_1KHZ'
+Slack : -1.487
+TNS   : -56.322
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FLOW_CTRL:U1|ST'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CLK_50MHZ'
+Slack : -1.098
+TNS   : -5.638
+
+Type  : Fast 1200mV 0C Model Setup 'FLOW_CTRL:U1|ST'
+Slack : -0.661
+TNS   : -1.981
+
+Type  : Fast 1200mV 0C Model Setup 'FREQ_DIV:U0|CLK_1KHZ'
+Slack : 0.055
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK_50MHZ'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FREQ_DIV:U0|CLK_1KHZ'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FLOW_CTRL:U1|ST'
+Slack : 0.962
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK_50MHZ'
+Slack : -3.000
+TNS   : -26.378
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FREQ_DIV:U0|CLK_1KHZ'
+Slack : -1.000
+TNS   : -36.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FLOW_CTRL:U1|ST'
+Slack : 0.392
+TNS   : 0.000
+
+------------------------------------------------------------
