@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/simulation/qsim
+Esine_wave_generator
+Z1 w1494252118
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 K`kJb<]?z4U5EbkG_:lMO3
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 HFZ8mBI5?[8TM9e2YGWCa2
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 zWCf]NF6heG=Dhmc@B0=T2
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 _Q9E2TD5YB<<@P0[5jYTG0
+R0
+Z10 8SINE-WAVE-GENERATOR.vho
+Z11 FSINE-WAVE-GENERATOR.vho
+l0
+L37
+V2YCRZhDb>ILa`6E7@K7FQ3
+!s100 PBSoPQAEBFmVf0C[Mm9`30
+Z12 OV;C;10.5b;63
+32
+Z13 !s110 1494252120
+!i10b 1
+Z14 !s108 1494252120.000000
+Z15 !s90 -work|work|SINE-WAVE-GENERATOR.vho|
+Z16 !s107 SINE-WAVE-GENERATOR.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 19 sine_wave_generator 0 22 2YCRZhDb>ILa`6E7@K7FQ3
+l388
+L64
+VcGUMZW>o@o==aJ`fz;J`?2
+!s100 OoM]RR3;fmAXjC?KR8CES2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Esine_wave_generator_vhd_vec_tst
+Z19 w1494252117
+R7
+R8
+R0
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L32
+VCjDTo^00J5Jz3DB60EY]_2
+!s100 =VX<FmF@V8l0e@Ek?af9[1
+R12
+32
+R13
+!i10b 1
+R14
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 1
+R17
+R18
+Asine_wave_generator_arch
+R7
+R8
+DEx4 work 31 sine_wave_generator_vhd_vec_tst 0 22 CjDTo^00J5Jz3DB60EY]_2
+l45
+L34
+VS<JicGjDA`hT]80=GGRH>1
+!s100 0Qf6MRV5B>L:L2M0AGS9S3
+R12
+32
+R13
+!i10b 1
+R14
+R22
+R23
+!i113 1
+R17
+R18
