@@ -21,7 +21,7 @@ BEGIN
 			ELSIF CNT_1KHZ = 5E4 / 2 THEN
 				CLK_1KHZ <= '0';
 				CNT_1KHZ <= CNT_1KHZ + 1;
-			ELSIF CNT_1KHZ = 5E4 - 1 then
+			ELSIF CNT_1KHZ = 5E4 - 1 THEN
 				CNT_1KHZ <= 0;
 			ELSE
 				CNT_1KHZ <= CNT_1KHZ + 1;
@@ -38,7 +38,7 @@ BEGIN
 			ELSIF CNT_1HZ = 1E3 / 2 THEN
 				CLK_1HZ <= '0';
 				CNT_1HZ <= CNT_1HZ + 1;
-			ELSIF CNT_1HZ = 1E3 - 1 then
+			ELSIF CNT_1HZ = 1E3 - 1 THEN
 				CNT_1HZ <= 0;
 			ELSE
 				CNT_1HZ <= CNT_1HZ + 1;
