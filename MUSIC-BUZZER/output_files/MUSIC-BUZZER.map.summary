@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu May 11 16:58:02 2017
+Quartus Prime Version : 16.1.2 Build 203 01/18/2017 SJ Standard Edition
+Revision Name : MUSIC-BUZZER
+Top-level Entity Name : MUSIC_BUZZER
+Family : Cyclone IV E
+Total logic elements : 1,130
+    Total combinational functions : 1,098
+    Dedicated logic registers : 525
+Total registers : 525
+Total pins : 2
+Total virtual pins : 0
+Total memory bits : 18,432
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
