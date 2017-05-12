@@ -1,5 +1,5 @@
 Fitter report for QUICK-ANSWER
-Thu Apr 27 15:21:20 2017
+Fri May 12 13:11:21 2017
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
 
 
@@ -68,7 +68,7 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Thu Apr 27 15:21:20 2017           ;
+; Fitter Status                      ; Successful - Fri May 12 13:11:21 2017           ;
 ; Quartus Prime Version              ; 16.1.2 Build 203 01/18/2017 SJ Standard Edition ;
 ; Revision Name                      ; QUICK-ANSWER                                    ;
 ; Top-level Entity Name              ; QUICK_ANSWER                                    ;
@@ -155,7 +155,7 @@ agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.01        ;
+; Average used               ; 1.02        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
@@ -203,7 +203,7 @@ agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in D:/Develop/FPGA/Project/QUICK-ANSWER/output_files/QUICK-ANSWER.pin.
+The pin-out file can be found in C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/output_files/QUICK-ANSWER.pin.
 
 
 +--------------------------------------------------------------------+
@@ -1053,20 +1053,20 @@ Info (332144): No user constrained base clocks found in the design
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
-Info (176353): Automatically promoted node CLK_50MHZ~input (placed in PIN E1 (CLK1, DIFFCLK_0n)) File: D:/Develop/FPGA/Project/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 6
+Info (176353): Automatically promoted node CLK_50MHZ~input (placed in PIN E1 (CLK1, DIFFCLK_0n)) File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 6
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G2
-Info (176353): Automatically promoted node FREQ_DIV:U0|CLK_1KHZ  File: D:/Develop/FPGA/Project/QUICK-ANSWER/FREQ_DIV.vhd Line: 7
+Info (176353): Automatically promoted node FREQ_DIV:U0|CLK_1KHZ  File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FREQ_DIV.vhd Line: 7
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node FREQ_DIV:U0|CLK_1KHZ~3 File: D:/Develop/FPGA/Project/QUICK-ANSWER/FREQ_DIV.vhd Line: 7
-        Info (176357): Destination node FREQ_DIV:U0|CLK_1KHZ~4 File: D:/Develop/FPGA/Project/QUICK-ANSWER/FREQ_DIV.vhd Line: 7
-        Info (176357): Destination node FREQ_DIV:U0|CLK_1KHZ~5 File: D:/Develop/FPGA/Project/QUICK-ANSWER/FREQ_DIV.vhd Line: 7
-Info (176353): Automatically promoted node FLOW_CTRL:U1|ST  File: D:/Develop/FPGA/Project/QUICK-ANSWER/FLOW_CTRL.vhd Line: 19
+        Info (176357): Destination node FREQ_DIV:U0|CLK_1KHZ~3 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FREQ_DIV.vhd Line: 7
+        Info (176357): Destination node FREQ_DIV:U0|CLK_1KHZ~4 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FREQ_DIV.vhd Line: 7
+        Info (176357): Destination node FREQ_DIV:U0|CLK_1KHZ~5 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FREQ_DIV.vhd Line: 7
+Info (176353): Automatically promoted node FLOW_CTRL:U1|ST  File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FLOW_CTRL.vhd Line: 19
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node FLOW_CTRL:U1|ST~0 File: D:/Develop/FPGA/Project/QUICK-ANSWER/FLOW_CTRL.vhd Line: 19
-        Info (176357): Destination node FLOW_CTRL:U1|ST~1 File: D:/Develop/FPGA/Project/QUICK-ANSWER/FLOW_CTRL.vhd Line: 19
-        Info (176357): Destination node LED[3]~output File: D:/Develop/FPGA/Project/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 9
+        Info (176357): Destination node FLOW_CTRL:U1|ST~0 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FLOW_CTRL.vhd Line: 19
+        Info (176357): Destination node FLOW_CTRL:U1|ST~1 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FLOW_CTRL.vhd Line: 19
+        Info (176357): Destination node LED[3]~output File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 9
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
@@ -1076,36 +1076,36 @@ Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X23_Y12 to location X34_Y24
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.15 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
+Info (11888): Total time spent on timing analysis during the Fitter is 0.36 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (169177): 5 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone IV E Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
-    Info (169178): Pin CLK_50MHZ uses I/O standard 3.3-V LVTTL at E1 File: D:/Develop/FPGA/Project/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 6
-    Info (169178): Pin KEY_CLIENT[0] uses I/O standard 3.3-V LVTTL at E16 File: D:/Develop/FPGA/Project/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 8
-    Info (169178): Pin KEY_CLIENT[1] uses I/O standard 3.3-V LVTTL at M16 File: D:/Develop/FPGA/Project/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 8
-    Info (169178): Pin KEY_CLIENT[2] uses I/O standard 3.3-V LVTTL at M15 File: D:/Develop/FPGA/Project/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 8
-    Info (169178): Pin KEY_MASTER uses I/O standard 3.3-V LVTTL at N13 File: D:/Develop/FPGA/Project/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 7
-Info (144001): Generated suppressed messages file D:/Develop/FPGA/Project/QUICK-ANSWER/output_files/QUICK-ANSWER.fit.smsg
+    Info (169178): Pin CLK_50MHZ uses I/O standard 3.3-V LVTTL at E1 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 6
+    Info (169178): Pin KEY_CLIENT[0] uses I/O standard 3.3-V LVTTL at E16 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 8
+    Info (169178): Pin KEY_CLIENT[1] uses I/O standard 3.3-V LVTTL at M16 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 8
+    Info (169178): Pin KEY_CLIENT[2] uses I/O standard 3.3-V LVTTL at M15 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 8
+    Info (169178): Pin KEY_MASTER uses I/O standard 3.3-V LVTTL at N13 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 7
+Info (144001): Generated suppressed messages file C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/output_files/QUICK-ANSWER.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 1399 megabytes
-    Info: Processing ended: Thu Apr 27 15:21:20 2017
-    Info: Elapsed time: 00:00:05
+    Info: Processing ended: Fri May 12 13:11:22 2017
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:05
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in D:/Develop/FPGA/Project/QUICK-ANSWER/output_files/QUICK-ANSWER.fit.smsg.
+The suppressed messages can be found in C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/output_files/QUICK-ANSWER.fit.smsg.
 
 

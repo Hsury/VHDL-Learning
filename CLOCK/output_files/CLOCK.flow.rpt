@@ -1,5 +1,5 @@
 Flow report for CLOCK
-Tue Apr 11 22:54:47 2017
+Fri May 12 13:07:27 2017
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Tue Apr 11 22:54:44 2017           ;
+; Flow Status                        ; Successful - Fri May 12 13:07:23 2017           ;
 ; Quartus Prime Version              ; 16.1.2 Build 203 01/18/2017 SJ Standard Edition ;
 ; Revision Name                      ; CLOCK                                           ;
 ; Top-level Entity Name              ; CLOCK                                           ;
@@ -65,7 +65,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/11/2017 22:54:24 ;
+; Start date & time ; 05/12/2017 13:07:00 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CLOCK               ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 141812760587639.149192246409472        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 141812760587639.149456562001200        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                      ; --            ; --          ; --         ;
@@ -95,11 +95,11 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:12     ; 1.0                     ; 690 MB              ; 00:00:23                           ;
-; Fitter                    ; 00:00:06     ; 1.0                     ; 1404 MB             ; 00:00:05                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 559 MB              ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 639 MB              ; 00:00:02                           ;
-; Total                     ; 00:00:21     ; --                      ; --                  ; 00:00:31                           ;
+; Analysis & Synthesis      ; 00:00:13     ; 1.0                     ; 679 MB              ; 00:00:25                           ;
+; Fitter                    ; 00:00:05     ; 1.0                     ; 1402 MB             ; 00:00:05                           ;
+; Assembler                 ; 00:00:00     ; 1.0                     ; 556 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 637 MB              ; 00:00:02                           ;
+; Total                     ; 00:00:20     ; --                      ; --                  ; 00:00:33                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

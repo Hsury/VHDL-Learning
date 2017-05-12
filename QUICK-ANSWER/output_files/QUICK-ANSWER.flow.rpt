@@ -1,5 +1,5 @@
 Flow report for QUICK-ANSWER
-Thu Apr 27 15:21:25 2017
+Fri May 12 13:11:27 2017
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Thu Apr 27 15:21:22 2017           ;
+; Flow Status                        ; Successful - Fri May 12 13:11:23 2017           ;
 ; Quartus Prime Version              ; 16.1.2 Build 203 01/18/2017 SJ Standard Edition ;
 ; Revision Name                      ; QUICK-ANSWER                                    ;
 ; Top-level Entity Name              ; QUICK_ANSWER                                    ;
@@ -65,7 +65,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/27/2017 15:21:03 ;
+; Start date & time ; 05/12/2017 13:11:03 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; QUICK-ANSWER        ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+--------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name  ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+--------------+------------+
-; COMPILER_SIGNATURE_ID               ; 141812760587639.149327766301088        ; --            ; --           ; --         ;
+; COMPILER_SIGNATURE_ID               ; 141812760587639.149456586211220        ; --            ; --           ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --           ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --           ; --         ;
 ; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                      ; --            ; --           ; --         ;
@@ -96,11 +96,11 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:11     ; 1.0                     ; 685 MB              ; 00:00:23                           ;
+; Analysis & Synthesis      ; 00:00:13     ; 1.0                     ; 681 MB              ; 00:00:23                           ;
 ; Fitter                    ; 00:00:05     ; 1.0                     ; 1399 MB             ; 00:00:05                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 558 MB              ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 637 MB              ; 00:00:02                           ;
-; Total                     ; 00:00:19     ; --                      ; --                  ; 00:00:31                           ;
+; Assembler                 ; 00:00:00     ; 1.0                     ; 556 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 643 MB              ; 00:00:02                           ;
+; Total                     ; 00:00:21     ; --                      ; --                  ; 00:00:31                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

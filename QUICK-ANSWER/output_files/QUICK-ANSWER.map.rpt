@@ -1,5 +1,5 @@
 Analysis & Synthesis report for QUICK-ANSWER
-Thu Apr 27 15:21:14 2017
+Fri May 12 13:11:15 2017
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
 
 
@@ -50,7 +50,7 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Apr 27 15:21:14 2017           ;
+; Analysis & Synthesis Status        ; Successful - Fri May 12 13:11:15 2017           ;
 ; Quartus Prime Version              ; 16.1.2 Build 203 01/18/2017 SJ Standard Edition ;
 ; Revision Name                      ; QUICK-ANSWER                                    ;
 ; Top-level Entity Name              ; QUICK_ANSWER                                    ;
@@ -171,16 +171,16 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                 ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                          ; Library ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------+---------+
-; QUICK_ANSWER.vhd                 ; yes             ; User VHDL File  ; D:/Develop/FPGA/Project/QUICK-ANSWER/QUICK_ANSWER.vhd ;         ;
-; FREQ_DIV.vhd                     ; yes             ; User VHDL File  ; D:/Develop/FPGA/Project/QUICK-ANSWER/FREQ_DIV.vhd     ;         ;
-; FLOW_CTRL.vhd                    ; yes             ; User VHDL File  ; D:/Develop/FPGA/Project/QUICK-ANSWER/FLOW_CTRL.vhd    ;         ;
-; KEY_SCAN.vhd                     ; yes             ; User VHDL File  ; D:/Develop/FPGA/Project/QUICK-ANSWER/KEY_SCAN.vhd     ;         ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                       ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                ; Library ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------+---------+
+; QUICK_ANSWER.vhd                 ; yes             ; User VHDL File  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/QUICK_ANSWER.vhd ;         ;
+; FREQ_DIV.vhd                     ; yes             ; User VHDL File  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FREQ_DIV.vhd     ;         ;
+; FLOW_CTRL.vhd                    ; yes             ; User VHDL File  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FLOW_CTRL.vhd    ;         ;
+; KEY_SCAN.vhd                     ; yes             ; User VHDL File  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/KEY_SCAN.vhd     ;         ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------------+
@@ -355,7 +355,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -365,30 +365,30 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
-    Info: Processing started: Thu Apr 27 15:21:03 2017
+    Info: Processing started: Fri May 12 13:11:02 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off QUICK-ANSWER -c QUICK-ANSWER
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file quick_answer.vhd
-    Info (12022): Found design unit 1: QUICK_ANSWER-BEHAV File: D:/Develop/FPGA/Project/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 12
-    Info (12023): Found entity 1: QUICK_ANSWER File: D:/Develop/FPGA/Project/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 5
+    Info (12022): Found design unit 1: QUICK_ANSWER-BEHAV File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 12
+    Info (12023): Found entity 1: QUICK_ANSWER File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file freq_div.vhd
-    Info (12022): Found design unit 1: FREQ_DIV-BEHAV File: D:/Develop/FPGA/Project/QUICK-ANSWER/FREQ_DIV.vhd Line: 10
-    Info (12023): Found entity 1: FREQ_DIV File: D:/Develop/FPGA/Project/QUICK-ANSWER/FREQ_DIV.vhd Line: 5
+    Info (12022): Found design unit 1: FREQ_DIV-BEHAV File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FREQ_DIV.vhd Line: 10
+    Info (12023): Found entity 1: FREQ_DIV File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FREQ_DIV.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file flow_ctrl.vhd
-    Info (12022): Found design unit 1: FLOW_CTRL-BEHAV File: D:/Develop/FPGA/Project/QUICK-ANSWER/FLOW_CTRL.vhd Line: 12
-    Info (12023): Found entity 1: FLOW_CTRL File: D:/Develop/FPGA/Project/QUICK-ANSWER/FLOW_CTRL.vhd Line: 5
+    Info (12022): Found design unit 1: FLOW_CTRL-BEHAV File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FLOW_CTRL.vhd Line: 12
+    Info (12023): Found entity 1: FLOW_CTRL File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FLOW_CTRL.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file key_scan.vhd
-    Info (12022): Found design unit 1: KEY_SCAN-BEHAV File: D:/Develop/FPGA/Project/QUICK-ANSWER/KEY_SCAN.vhd Line: 12
-    Info (12023): Found entity 1: KEY_SCAN File: D:/Develop/FPGA/Project/QUICK-ANSWER/KEY_SCAN.vhd Line: 5
+    Info (12022): Found design unit 1: KEY_SCAN-BEHAV File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/KEY_SCAN.vhd Line: 12
+    Info (12023): Found entity 1: KEY_SCAN File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/KEY_SCAN.vhd Line: 5
 Info (12127): Elaborating entity "QUICK_ANSWER" for the top level hierarchy
-Info (12128): Elaborating entity "FREQ_DIV" for hierarchy "FREQ_DIV:U0" File: D:/Develop/FPGA/Project/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 36
-Info (12128): Elaborating entity "FLOW_CTRL" for hierarchy "FLOW_CTRL:U1" File: D:/Develop/FPGA/Project/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 38
-Warning (10631): VHDL Process Statement warning at FLOW_CTRL.vhd(37): inferring latch(es) for signal or variable "LED", which holds its previous value in one or more paths through the process File: D:/Develop/FPGA/Project/QUICK-ANSWER/FLOW_CTRL.vhd Line: 37
-Info (10041): Inferred latch for "LED[0]" at FLOW_CTRL.vhd(37) File: D:/Develop/FPGA/Project/QUICK-ANSWER/FLOW_CTRL.vhd Line: 37
-Info (10041): Inferred latch for "LED[1]" at FLOW_CTRL.vhd(37) File: D:/Develop/FPGA/Project/QUICK-ANSWER/FLOW_CTRL.vhd Line: 37
-Info (10041): Inferred latch for "LED[2]" at FLOW_CTRL.vhd(37) File: D:/Develop/FPGA/Project/QUICK-ANSWER/FLOW_CTRL.vhd Line: 37
-Info (12128): Elaborating entity "KEY_SCAN" for hierarchy "KEY_SCAN:U2" File: D:/Develop/FPGA/Project/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 42
+Info (12128): Elaborating entity "FREQ_DIV" for hierarchy "FREQ_DIV:U0" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 36
+Info (12128): Elaborating entity "FLOW_CTRL" for hierarchy "FLOW_CTRL:U1" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 38
+Warning (10631): VHDL Process Statement warning at FLOW_CTRL.vhd(37): inferring latch(es) for signal or variable "LED", which holds its previous value in one or more paths through the process File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FLOW_CTRL.vhd Line: 37
+Info (10041): Inferred latch for "LED[0]" at FLOW_CTRL.vhd(37) File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FLOW_CTRL.vhd Line: 37
+Info (10041): Inferred latch for "LED[1]" at FLOW_CTRL.vhd(37) File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FLOW_CTRL.vhd Line: 37
+Info (10041): Inferred latch for "LED[2]" at FLOW_CTRL.vhd(37) File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/FLOW_CTRL.vhd Line: 37
+Info (12128): Elaborating entity "KEY_SCAN" for hierarchy "KEY_SCAN:U2" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/QUICK-ANSWER/QUICK_ANSWER.vhd Line: 42
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -397,9 +397,9 @@ Info (21057): Implemented 106 device resources after synthesis - the final resou
     Info (21059): Implemented 4 output pins
     Info (21061): Implemented 97 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 685 megabytes
-    Info: Processing ended: Thu Apr 27 15:21:14 2017
-    Info: Elapsed time: 00:00:11
+    Info: Peak virtual memory: 681 megabytes
+    Info: Processing ended: Fri May 12 13:11:15 2017
+    Info: Elapsed time: 00:00:13
     Info: Total CPU time (on all processors): 00:00:23
 
 

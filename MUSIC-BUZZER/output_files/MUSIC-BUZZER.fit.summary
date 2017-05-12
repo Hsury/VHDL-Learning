@@ -1,12 +1,12 @@
-Fitter Status : Successful - Thu May 11 16:58:09 2017
+Fitter Status : Successful - Fri May 12 13:16:25 2017
 Quartus Prime Version : 16.1.2 Build 203 01/18/2017 SJ Standard Edition
 Revision Name : MUSIC-BUZZER
 Top-level Entity Name : MUSIC_BUZZER
 Family : Cyclone IV E
 Device : EP4CE6F17C8
 Timing Models : Final
-Total logic elements : 1,129 / 6,272 ( 18 % )
-    Total combinational functions : 1,098 / 6,272 ( 18 % )
+Total logic elements : 1,141 / 6,272 ( 18 % )
+    Total combinational functions : 1,101 / 6,272 ( 18 % )
     Dedicated logic registers : 525 / 6,272 ( 8 % )
 Total registers : 525
 Total pins : 2 / 180 ( 1 % )

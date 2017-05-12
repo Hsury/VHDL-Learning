@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CLOCK
-Tue Apr 11 22:54:35 2017
+Fri May 12 13:07:14 2017
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
 
 
@@ -48,7 +48,7 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Apr 11 22:54:35 2017           ;
+; Analysis & Synthesis Status        ; Successful - Fri May 12 13:07:13 2017           ;
 ; Quartus Prime Version              ; 16.1.2 Build 203 01/18/2017 SJ Standard Edition ;
 ; Revision Name                      ; CLOCK                                           ;
 ; Top-level Entity Name              ; CLOCK                                           ;
@@ -169,19 +169,19 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                          ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                   ; Library ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------+---------+
-; CLOCK.vhd                        ; yes             ; User VHDL File  ; D:/Develop/FPGA/Project/CLOCK/CLOCK.vhd        ;         ;
-; FREQ_DIV.vhd                     ; yes             ; User VHDL File  ; D:/Develop/FPGA/Project/CLOCK/FREQ_DIV.vhd     ;         ;
-; TICK.vhd                         ; yes             ; User VHDL File  ; D:/Develop/FPGA/Project/CLOCK/TICK.vhd         ;         ;
-; KEY_SCAN.vhd                     ; yes             ; User VHDL File  ; D:/Develop/FPGA/Project/CLOCK/KEY_SCAN.vhd     ;         ;
-; LED_CTRL.vhd                     ; yes             ; User VHDL File  ; D:/Develop/FPGA/Project/CLOCK/LED_CTRL.vhd     ;         ;
-; DECODER_3TO8.vhd                 ; yes             ; User VHDL File  ; D:/Develop/FPGA/Project/CLOCK/DECODER_3TO8.vhd ;         ;
-; SEG8.vhd                         ; yes             ; User VHDL File  ; D:/Develop/FPGA/Project/CLOCK/SEG8.vhd         ;         ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                         ; Library ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------+---------+
+; CLOCK.vhd                        ; yes             ; User VHDL File  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/CLOCK.vhd        ;         ;
+; FREQ_DIV.vhd                     ; yes             ; User VHDL File  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/FREQ_DIV.vhd     ;         ;
+; TICK.vhd                         ; yes             ; User VHDL File  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/TICK.vhd         ;         ;
+; KEY_SCAN.vhd                     ; yes             ; User VHDL File  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/KEY_SCAN.vhd     ;         ;
+; LED_CTRL.vhd                     ; yes             ; User VHDL File  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/LED_CTRL.vhd     ;         ;
+; DECODER_3TO8.vhd                 ; yes             ; User VHDL File  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/DECODER_3TO8.vhd ;         ;
+; SEG8.vhd                         ; yes             ; User VHDL File  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/SEG8.vhd         ;         ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------------+
@@ -353,40 +353,40 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
-    Info: Processing started: Tue Apr 11 22:54:23 2017
+    Info: Processing started: Fri May 12 13:07:00 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CLOCK -c CLOCK
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file clock.vhd
-    Info (12022): Found design unit 1: CLOCK-BEHAV File: D:/Develop/FPGA/Project/CLOCK/CLOCK.vhd Line: 14
-    Info (12023): Found entity 1: CLOCK File: D:/Develop/FPGA/Project/CLOCK/CLOCK.vhd Line: 5
+    Info (12022): Found design unit 1: CLOCK-BEHAV File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/CLOCK.vhd Line: 14
+    Info (12023): Found entity 1: CLOCK File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/CLOCK.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file freq_div.vhd
-    Info (12022): Found design unit 1: FREQ_DIV-BEHAV File: D:/Develop/FPGA/Project/CLOCK/FREQ_DIV.vhd Line: 11
-    Info (12023): Found entity 1: FREQ_DIV File: D:/Develop/FPGA/Project/CLOCK/FREQ_DIV.vhd Line: 5
+    Info (12022): Found design unit 1: FREQ_DIV-BEHAV File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/FREQ_DIV.vhd Line: 11
+    Info (12023): Found entity 1: FREQ_DIV File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/FREQ_DIV.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file tick.vhd
-    Info (12022): Found design unit 1: TICK-BEHAV File: D:/Develop/FPGA/Project/CLOCK/TICK.vhd Line: 18
-    Info (12023): Found entity 1: TICK File: D:/Develop/FPGA/Project/CLOCK/TICK.vhd Line: 5
+    Info (12022): Found design unit 1: TICK-BEHAV File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/TICK.vhd Line: 18
+    Info (12023): Found entity 1: TICK File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/TICK.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file key_scan.vhd
-    Info (12022): Found design unit 1: KEY_SCAN-BEHAV File: D:/Develop/FPGA/Project/CLOCK/KEY_SCAN.vhd Line: 12
-    Info (12023): Found entity 1: KEY_SCAN File: D:/Develop/FPGA/Project/CLOCK/KEY_SCAN.vhd Line: 5
+    Info (12022): Found design unit 1: KEY_SCAN-BEHAV File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/KEY_SCAN.vhd Line: 12
+    Info (12023): Found entity 1: KEY_SCAN File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/KEY_SCAN.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file led_ctrl.vhd
-    Info (12022): Found design unit 1: LED_CTRL-BEHAV File: D:/Develop/FPGA/Project/CLOCK/LED_CTRL.vhd Line: 19
-    Info (12023): Found entity 1: LED_CTRL File: D:/Develop/FPGA/Project/CLOCK/LED_CTRL.vhd Line: 5
+    Info (12022): Found design unit 1: LED_CTRL-BEHAV File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/LED_CTRL.vhd Line: 19
+    Info (12023): Found entity 1: LED_CTRL File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/LED_CTRL.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file decoder_3to8.vhd
-    Info (12022): Found design unit 1: DECODER_3TO8-BEHAV File: D:/Develop/FPGA/Project/CLOCK/DECODER_3TO8.vhd Line: 11
-    Info (12023): Found entity 1: DECODER_3TO8 File: D:/Develop/FPGA/Project/CLOCK/DECODER_3TO8.vhd Line: 6
+    Info (12022): Found design unit 1: DECODER_3TO8-BEHAV File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/DECODER_3TO8.vhd Line: 11
+    Info (12023): Found entity 1: DECODER_3TO8 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/DECODER_3TO8.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file seg8.vhd
-    Info (12022): Found design unit 1: SEG8-BEHAV File: D:/Develop/FPGA/Project/CLOCK/SEG8.vhd Line: 12
-    Info (12023): Found entity 1: SEG8 File: D:/Develop/FPGA/Project/CLOCK/SEG8.vhd Line: 6
+    Info (12022): Found design unit 1: SEG8-BEHAV File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/SEG8.vhd Line: 12
+    Info (12023): Found entity 1: SEG8 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/SEG8.vhd Line: 6
 Info (12127): Elaborating entity "CLOCK" for the top level hierarchy
-Info (12128): Elaborating entity "FREQ_DIV" for hierarchy "FREQ_DIV:U0" File: D:/Develop/FPGA/Project/CLOCK/CLOCK.vhd Line: 81
-Info (12128): Elaborating entity "TICK" for hierarchy "TICK:U1" File: D:/Develop/FPGA/Project/CLOCK/CLOCK.vhd Line: 84
-Warning (10492): VHDL Process Statement warning at TICK.vhd(42): signal "PAUSE" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/Develop/FPGA/Project/CLOCK/TICK.vhd Line: 42
-Info (12128): Elaborating entity "KEY_SCAN" for hierarchy "KEY_SCAN:U2" File: D:/Develop/FPGA/Project/CLOCK/CLOCK.vhd Line: 94
-Info (12128): Elaborating entity "LED_CTRL" for hierarchy "LED_CTRL:U4" File: D:/Develop/FPGA/Project/CLOCK/CLOCK.vhd Line: 100
-Info (12128): Elaborating entity "DECODER_3TO8" for hierarchy "DECODER_3TO8:U5" File: D:/Develop/FPGA/Project/CLOCK/CLOCK.vhd Line: 111
-Info (12128): Elaborating entity "SEG8" for hierarchy "SEG8:U6" File: D:/Develop/FPGA/Project/CLOCK/CLOCK.vhd Line: 113
-Info (13000): Registers with preset signals will power-up high File: D:/Develop/FPGA/Project/CLOCK/TICK.vhd Line: 15
+Info (12128): Elaborating entity "FREQ_DIV" for hierarchy "FREQ_DIV:U0" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/CLOCK.vhd Line: 81
+Info (12128): Elaborating entity "TICK" for hierarchy "TICK:U1" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/CLOCK.vhd Line: 84
+Warning (10492): VHDL Process Statement warning at TICK.vhd(42): signal "PAUSE" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/TICK.vhd Line: 42
+Info (12128): Elaborating entity "KEY_SCAN" for hierarchy "KEY_SCAN:U2" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/CLOCK.vhd Line: 94
+Info (12128): Elaborating entity "LED_CTRL" for hierarchy "LED_CTRL:U4" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/CLOCK.vhd Line: 100
+Info (12128): Elaborating entity "DECODER_3TO8" for hierarchy "DECODER_3TO8:U5" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/CLOCK.vhd Line: 111
+Info (12128): Elaborating entity "SEG8" for hierarchy "SEG8:U6" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/CLOCK.vhd Line: 113
+Info (13000): Registers with preset signals will power-up high File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/CLOCK/TICK.vhd Line: 15
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -396,9 +396,9 @@ Info (21057): Implemented 173 device resources after synthesis - the final resou
     Info (21059): Implemented 15 output pins
     Info (21061): Implemented 155 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 690 megabytes
-    Info: Processing ended: Tue Apr 11 22:54:35 2017
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:23
+    Info: Peak virtual memory: 679 megabytes
+    Info: Processing ended: Fri May 12 13:07:14 2017
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:25
 
 

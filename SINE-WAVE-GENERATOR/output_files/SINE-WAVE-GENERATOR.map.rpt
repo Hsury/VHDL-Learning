@@ -1,5 +1,5 @@
 Analysis & Synthesis report for SINE-WAVE-GENERATOR
-Mon May 08 22:30:45 2017
+Fri May 12 13:12:53 2017
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
 
 
@@ -59,7 +59,7 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon May 08 22:30:45 2017           ;
+; Analysis & Synthesis Status        ; Successful - Fri May 12 13:12:53 2017           ;
 ; Quartus Prime Version              ; 16.1.2 Build 203 01/18/2017 SJ Standard Edition ;
 ; Revision Name                      ; SINE-WAVE-GENERATOR                             ;
 ; Top-level Entity Name              ; SINE_WAVE_GENERATOR                             ;
@@ -180,74 +180,74 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                             ;
-+--------------------------------------------------------------------+-----------------+----------------------------------------------+----------------------------------------------------------------------------------------------------------------+-------------+
-; File Name with User-Entered Path                                   ; Used in Netlist ; File Type                                    ; File Name with Absolute Path                                                                                   ; Library     ;
-+--------------------------------------------------------------------+-----------------+----------------------------------------------+----------------------------------------------------------------------------------------------------------------+-------------+
-; SINE_WAVE_GENERATOR.vhd                                            ; yes             ; User VHDL File                               ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/SINE_WAVE_GENERATOR.vhd                                            ;             ;
-; WAVE_DATA.mif                                                      ; yes             ; User Memory Initialization File              ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/WAVE_DATA.mif                                                      ;             ;
-; WAVE_DATA_ROM.vhd                                                  ; yes             ; User Wizard-Generated File                   ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/WAVE_DATA_ROM.vhd                                                  ;             ;
-; altsyncram.tdf                                                     ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altsyncram.tdf                                               ;             ;
-; stratix_ram_block.inc                                              ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/stratix_ram_block.inc                                        ;             ;
-; lpm_mux.inc                                                        ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_mux.inc                                                  ;             ;
-; lpm_decode.inc                                                     ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_decode.inc                                               ;             ;
-; aglobal161.inc                                                     ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/aglobal161.inc                                               ;             ;
-; a_rdenreg.inc                                                      ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/a_rdenreg.inc                                                ;             ;
-; altrom.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altrom.inc                                                   ;             ;
-; altram.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altram.inc                                                   ;             ;
-; altdpram.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altdpram.inc                                                 ;             ;
-; db/altsyncram_74u3.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/altsyncram_74u3.tdf                                             ;             ;
-; db/altsyncram_phu2.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/altsyncram_phu2.tdf                                             ;             ;
-; sld_mod_ram_rom.vhd                                                ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd                                          ;             ;
-; sld_jtag_endpoint_adapter.vhd                                      ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd                                ;             ;
-; sld_jtag_endpoint_adapter_impl.sv                                  ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter_impl.sv                            ;             ;
-; sld_rom_sr.vhd                                                     ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_rom_sr.vhd                                               ;             ;
-; sld_signaltap.vhd                                                  ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_signaltap.vhd                                            ;             ;
-; sld_signaltap_impl.vhd                                             ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_signaltap_impl.vhd                                       ;             ;
-; sld_ela_control.vhd                                                ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_ela_control.vhd                                          ;             ;
-; lpm_shiftreg.tdf                                                   ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_shiftreg.tdf                                             ;             ;
-; lpm_constant.inc                                                   ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_constant.inc                                             ;             ;
-; dffeea.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/dffeea.inc                                                   ;             ;
-; sld_mbpmg.vhd                                                      ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_mbpmg.vhd                                                ;             ;
-; sld_ela_trigger_flow_mgr.vhd                                       ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_ela_trigger_flow_mgr.vhd                                 ;             ;
-; sld_buffer_manager.vhd                                             ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_buffer_manager.vhd                                       ;             ;
-; db/altsyncram_ca24.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/altsyncram_ca24.tdf                                             ;             ;
-; altdpram.tdf                                                       ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altdpram.tdf                                                 ;             ;
-; memmodes.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/others/maxplus2/memmodes.inc                                               ;             ;
-; a_hdffe.inc                                                        ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/a_hdffe.inc                                                  ;             ;
-; alt_le_rden_reg.inc                                                ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/alt_le_rden_reg.inc                                          ;             ;
-; altsyncram.inc                                                     ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altsyncram.inc                                               ;             ;
-; lpm_mux.tdf                                                        ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_mux.tdf                                                  ;             ;
-; muxlut.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/muxlut.inc                                                   ;             ;
-; bypassff.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/bypassff.inc                                                 ;             ;
-; altshift.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altshift.inc                                                 ;             ;
-; db/mux_psc.tdf                                                     ; yes             ; Auto-Generated Megafunction                  ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/mux_psc.tdf                                                     ;             ;
-; lpm_decode.tdf                                                     ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_decode.tdf                                               ;             ;
-; declut.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/declut.inc                                                   ;             ;
-; lpm_compare.inc                                                    ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_compare.inc                                              ;             ;
-; db/decode_dvf.tdf                                                  ; yes             ; Auto-Generated Megafunction                  ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/decode_dvf.tdf                                                  ;             ;
-; lpm_counter.tdf                                                    ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_counter.tdf                                              ;             ;
-; lpm_add_sub.inc                                                    ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                              ;             ;
-; cmpconst.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/cmpconst.inc                                                 ;             ;
-; lpm_counter.inc                                                    ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_counter.inc                                              ;             ;
-; alt_counter_stratix.inc                                            ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/alt_counter_stratix.inc                                      ;             ;
-; db/cntr_dgi.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/cntr_dgi.tdf                                                    ;             ;
-; db/cmpr_qgc.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/cmpr_qgc.tdf                                                    ;             ;
-; db/cntr_89j.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/cntr_89j.tdf                                                    ;             ;
-; db/cntr_cgi.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/cntr_cgi.tdf                                                    ;             ;
-; db/cmpr_rgc.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/cmpr_rgc.tdf                                                    ;             ;
-; db/cntr_23j.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/cntr_23j.tdf                                                    ;             ;
-; db/cmpr_ngc.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/cmpr_ngc.tdf                                                    ;             ;
-; sld_hub.vhd                                                        ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_hub.vhd                                                  ; altera_sld  ;
-; db/ip/sld9b93f17c/alt_sld_fab.v                                    ; yes             ; Encrypted Auto-Found Verilog HDL File        ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/alt_sld_fab.v                                    ; alt_sld_fab ;
-; db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab.v             ; yes             ; Encrypted Auto-Found Verilog HDL File        ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab.v             ; alt_sld_fab ;
-; db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; yes             ; Auto-Found SystemVerilog HDL File            ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; alt_sld_fab ;
-; db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; alt_sld_fab ;
-; db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; yes             ; Encrypted Auto-Found VHDL File               ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; alt_sld_fab ;
-; db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; alt_sld_fab ;
-; sld_jtag_hub.vhd                                                   ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                             ;             ;
-+--------------------------------------------------------------------+-----------------+----------------------------------------------+----------------------------------------------------------------------------------------------------------------+-------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                                                   ;
++--------------------------------------------------------------------+-----------------+----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+-------------+
+; File Name with User-Entered Path                                   ; Used in Netlist ; File Type                                    ; File Name with Absolute Path                                                                                                         ; Library     ;
++--------------------------------------------------------------------+-----------------+----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+-------------+
+; SINE_WAVE_GENERATOR.vhd                                            ; yes             ; User VHDL File                               ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/SINE_WAVE_GENERATOR.vhd                                            ;             ;
+; WAVE_DATA.mif                                                      ; yes             ; User Memory Initialization File              ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/WAVE_DATA.mif                                                      ;             ;
+; WAVE_DATA_ROM.vhd                                                  ; yes             ; User Wizard-Generated File                   ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/WAVE_DATA_ROM.vhd                                                  ;             ;
+; altsyncram.tdf                                                     ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altsyncram.tdf                                                                     ;             ;
+; stratix_ram_block.inc                                              ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/stratix_ram_block.inc                                                              ;             ;
+; lpm_mux.inc                                                        ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_mux.inc                                                                        ;             ;
+; lpm_decode.inc                                                     ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_decode.inc                                                                     ;             ;
+; aglobal161.inc                                                     ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/aglobal161.inc                                                                     ;             ;
+; a_rdenreg.inc                                                      ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/a_rdenreg.inc                                                                      ;             ;
+; altrom.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altrom.inc                                                                         ;             ;
+; altram.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altram.inc                                                                         ;             ;
+; altdpram.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altdpram.inc                                                                       ;             ;
+; db/altsyncram_74u3.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/altsyncram_74u3.tdf                                             ;             ;
+; db/altsyncram_phu2.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/altsyncram_phu2.tdf                                             ;             ;
+; sld_mod_ram_rom.vhd                                                ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd                                                                ;             ;
+; sld_jtag_endpoint_adapter.vhd                                      ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd                                                      ;             ;
+; sld_jtag_endpoint_adapter_impl.sv                                  ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter_impl.sv                                                  ;             ;
+; sld_rom_sr.vhd                                                     ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_rom_sr.vhd                                                                     ;             ;
+; sld_signaltap.vhd                                                  ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_signaltap.vhd                                                                  ;             ;
+; sld_signaltap_impl.vhd                                             ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_signaltap_impl.vhd                                                             ;             ;
+; sld_ela_control.vhd                                                ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_ela_control.vhd                                                                ;             ;
+; lpm_shiftreg.tdf                                                   ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_shiftreg.tdf                                                                   ;             ;
+; lpm_constant.inc                                                   ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_constant.inc                                                                   ;             ;
+; dffeea.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/dffeea.inc                                                                         ;             ;
+; sld_mbpmg.vhd                                                      ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_mbpmg.vhd                                                                      ;             ;
+; sld_ela_trigger_flow_mgr.vhd                                       ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_ela_trigger_flow_mgr.vhd                                                       ;             ;
+; sld_buffer_manager.vhd                                             ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_buffer_manager.vhd                                                             ;             ;
+; db/altsyncram_ca24.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/altsyncram_ca24.tdf                                             ;             ;
+; altdpram.tdf                                                       ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altdpram.tdf                                                                       ;             ;
+; memmodes.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/others/maxplus2/memmodes.inc                                                                     ;             ;
+; a_hdffe.inc                                                        ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/a_hdffe.inc                                                                        ;             ;
+; alt_le_rden_reg.inc                                                ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/alt_le_rden_reg.inc                                                                ;             ;
+; altsyncram.inc                                                     ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altsyncram.inc                                                                     ;             ;
+; lpm_mux.tdf                                                        ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_mux.tdf                                                                        ;             ;
+; muxlut.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/muxlut.inc                                                                         ;             ;
+; bypassff.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/bypassff.inc                                                                       ;             ;
+; altshift.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altshift.inc                                                                       ;             ;
+; db/mux_psc.tdf                                                     ; yes             ; Auto-Generated Megafunction                  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/mux_psc.tdf                                                     ;             ;
+; lpm_decode.tdf                                                     ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_decode.tdf                                                                     ;             ;
+; declut.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/declut.inc                                                                         ;             ;
+; lpm_compare.inc                                                    ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_compare.inc                                                                    ;             ;
+; db/decode_dvf.tdf                                                  ; yes             ; Auto-Generated Megafunction                  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/decode_dvf.tdf                                                  ;             ;
+; lpm_counter.tdf                                                    ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_counter.tdf                                                                    ;             ;
+; lpm_add_sub.inc                                                    ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                                                    ;             ;
+; cmpconst.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/cmpconst.inc                                                                       ;             ;
+; lpm_counter.inc                                                    ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/lpm_counter.inc                                                                    ;             ;
+; alt_counter_stratix.inc                                            ; yes             ; Megafunction                                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/alt_counter_stratix.inc                                                            ;             ;
+; db/cntr_dgi.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/cntr_dgi.tdf                                                    ;             ;
+; db/cmpr_qgc.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/cmpr_qgc.tdf                                                    ;             ;
+; db/cntr_89j.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/cntr_89j.tdf                                                    ;             ;
+; db/cntr_cgi.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/cntr_cgi.tdf                                                    ;             ;
+; db/cmpr_rgc.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/cmpr_rgc.tdf                                                    ;             ;
+; db/cntr_23j.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/cntr_23j.tdf                                                    ;             ;
+; db/cmpr_ngc.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/cmpr_ngc.tdf                                                    ;             ;
+; sld_hub.vhd                                                        ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_hub.vhd                                                                        ; altera_sld  ;
+; db/ip/sld9b93f17c/alt_sld_fab.v                                    ; yes             ; Encrypted Auto-Found Verilog HDL File        ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/alt_sld_fab.v                                    ; alt_sld_fab ;
+; db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab.v             ; yes             ; Encrypted Auto-Found Verilog HDL File        ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab.v             ; alt_sld_fab ;
+; db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; yes             ; Auto-Found SystemVerilog HDL File            ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; alt_sld_fab ;
+; db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; alt_sld_fab ;
+; db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; yes             ; Encrypted Auto-Found VHDL File               ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; alt_sld_fab ;
+; db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; alt_sld_fab ;
+; sld_jtag_hub.vhd                                                   ; yes             ; Encrypted Megafunction                       ; c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                                                   ;             ;
++--------------------------------------------------------------------+-----------------+----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+-------------+
 
 
 +------------------------------------------------------------------------+
@@ -772,7 +772,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------------------------------+--------------+
 ; sld_signaltap:auto_signaltap_0 ; 00:00:01     ;
 ; sld_hub:auto_hub               ; 00:00:01     ;
-; Top                            ; 00:00:00     ;
+; Top                            ; 00:00:01     ;
 +--------------------------------+--------------+
 
 
@@ -851,21 +851,21 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
-    Info: Processing started: Mon May 08 22:30:16 2017
+    Info: Processing started: Fri May 12 13:12:19 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SINE-WAVE-GENERATOR -c SINE-WAVE-GENERATOR
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file sine_wave_generator.vhd
-    Info (12022): Found design unit 1: SINE_WAVE_GENERATOR-BEHAV File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/SINE_WAVE_GENERATOR.vhd Line: 11
-    Info (12023): Found entity 1: SINE_WAVE_GENERATOR File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/SINE_WAVE_GENERATOR.vhd Line: 6
+    Info (12022): Found design unit 1: SINE_WAVE_GENERATOR-BEHAV File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/SINE_WAVE_GENERATOR.vhd Line: 11
+    Info (12023): Found entity 1: SINE_WAVE_GENERATOR File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/SINE_WAVE_GENERATOR.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file wave_data_rom.vhd
-    Info (12022): Found design unit 1: wave_data_rom-SYN File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/WAVE_DATA_ROM.vhd Line: 53
-    Info (12023): Found entity 1: WAVE_DATA_ROM File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/WAVE_DATA_ROM.vhd Line: 43
+    Info (12022): Found design unit 1: wave_data_rom-SYN File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/WAVE_DATA_ROM.vhd Line: 53
+    Info (12023): Found entity 1: WAVE_DATA_ROM File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/WAVE_DATA_ROM.vhd Line: 43
 Info (12127): Elaborating entity "SINE_WAVE_GENERATOR" for the top level hierarchy
-Info (12128): Elaborating entity "WAVE_DATA_ROM" for hierarchy "WAVE_DATA_ROM:ROM" File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/SINE_WAVE_GENERATOR.vhd Line: 27
-Info (12128): Elaborating entity "altsyncram" for hierarchy "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component" File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/WAVE_DATA_ROM.vhd Line: 60
-Info (12130): Elaborated megafunction instantiation "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component" File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/WAVE_DATA_ROM.vhd Line: 60
-Info (12133): Instantiated megafunction "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component" with the following parameter: File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/WAVE_DATA_ROM.vhd Line: 60
+Info (12128): Elaborating entity "WAVE_DATA_ROM" for hierarchy "WAVE_DATA_ROM:ROM" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/SINE_WAVE_GENERATOR.vhd Line: 27
+Info (12128): Elaborating entity "altsyncram" for hierarchy "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/WAVE_DATA_ROM.vhd Line: 60
+Info (12130): Elaborated megafunction instantiation "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/WAVE_DATA_ROM.vhd Line: 60
+Info (12133): Instantiated megafunction "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/WAVE_DATA_ROM.vhd Line: 60
     Info (12134): Parameter "address_aclr_a" = "NONE"
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK1"
@@ -917,14 +917,14 @@ Info (12133): Instantiated megafunction "WAVE_DATA_ROM:ROM|altsyncram:altsyncram
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=YES,INSTANCE_NAME=ROM0"
     Info (12134): Parameter "lpm_type" = "altsyncram"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_74u3.tdf
-    Info (12023): Found entity 1: altsyncram_74u3 File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/altsyncram_74u3.tdf Line: 28
+    Info (12023): Found entity 1: altsyncram_74u3 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/altsyncram_74u3.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_74u3" for hierarchy "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component|altsyncram_74u3:auto_generated" File: c:/intelfpga/16.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_phu2.tdf
-    Info (12023): Found entity 1: altsyncram_phu2 File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/altsyncram_phu2.tdf Line: 28
-Info (12128): Elaborating entity "altsyncram_phu2" for hierarchy "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component|altsyncram_74u3:auto_generated|altsyncram_phu2:altsyncram1" File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/altsyncram_74u3.tdf Line: 35
-Info (12128): Elaborating entity "sld_mod_ram_rom" for hierarchy "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component|altsyncram_74u3:auto_generated|sld_mod_ram_rom:mgl_prim2" File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/altsyncram_74u3.tdf Line: 36
-Info (12130): Elaborated megafunction instantiation "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component|altsyncram_74u3:auto_generated|sld_mod_ram_rom:mgl_prim2" File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/altsyncram_74u3.tdf Line: 36
-Info (12133): Instantiated megafunction "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component|altsyncram_74u3:auto_generated|sld_mod_ram_rom:mgl_prim2" with the following parameter: File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/altsyncram_74u3.tdf Line: 36
+    Info (12023): Found entity 1: altsyncram_phu2 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/altsyncram_phu2.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_phu2" for hierarchy "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component|altsyncram_74u3:auto_generated|altsyncram_phu2:altsyncram1" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/altsyncram_74u3.tdf Line: 35
+Info (12128): Elaborating entity "sld_mod_ram_rom" for hierarchy "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component|altsyncram_74u3:auto_generated|sld_mod_ram_rom:mgl_prim2" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/altsyncram_74u3.tdf Line: 36
+Info (12130): Elaborated megafunction instantiation "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component|altsyncram_74u3:auto_generated|sld_mod_ram_rom:mgl_prim2" File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/altsyncram_74u3.tdf Line: 36
+Info (12133): Instantiated megafunction "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component|altsyncram_74u3:auto_generated|sld_mod_ram_rom:mgl_prim2" with the following parameter: File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/altsyncram_74u3.tdf Line: 36
     Info (12134): Parameter "CVALUE" = "00000000"
     Info (12134): Parameter "IS_DATA_IN_RAM" = "1"
     Info (12134): Parameter "IS_READABLE" = "1"
@@ -937,28 +937,28 @@ Info (12128): Elaborating entity "sld_jtag_endpoint_adapter" for hierarchy "WAVE
 Info (12128): Elaborating entity "sld_jtag_endpoint_adapter_impl" for hierarchy "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component|altsyncram_74u3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_jtag_endpoint_adapter:jtag_signal_adapter|sld_jtag_endpoint_adapter_impl:sld_jtag_endpoint_adapter_impl_inst" File: c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd Line: 232
 Info (12128): Elaborating entity "sld_rom_sr" for hierarchy "WAVE_DATA_ROM:ROM|altsyncram:altsyncram_component|altsyncram_74u3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr" File: c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd Line: 828
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ca24.tdf
-    Info (12023): Found entity 1: altsyncram_ca24 File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/altsyncram_ca24.tdf Line: 28
+    Info (12023): Found entity 1: altsyncram_ca24 File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/altsyncram_ca24.tdf Line: 28
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_psc.tdf
-    Info (12023): Found entity 1: mux_psc File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/mux_psc.tdf Line: 23
+    Info (12023): Found entity 1: mux_psc File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/mux_psc.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_dvf.tdf
-    Info (12023): Found entity 1: decode_dvf File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/decode_dvf.tdf Line: 23
+    Info (12023): Found entity 1: decode_dvf File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/decode_dvf.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_dgi.tdf
-    Info (12023): Found entity 1: cntr_dgi File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/cntr_dgi.tdf Line: 28
+    Info (12023): Found entity 1: cntr_dgi File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/cntr_dgi.tdf Line: 28
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_qgc.tdf
-    Info (12023): Found entity 1: cmpr_qgc File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/cmpr_qgc.tdf Line: 23
+    Info (12023): Found entity 1: cmpr_qgc File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/cmpr_qgc.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_89j.tdf
-    Info (12023): Found entity 1: cntr_89j File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/cntr_89j.tdf Line: 26
+    Info (12023): Found entity 1: cntr_89j File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/cntr_89j.tdf Line: 26
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_cgi.tdf
-    Info (12023): Found entity 1: cntr_cgi File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/cntr_cgi.tdf Line: 28
+    Info (12023): Found entity 1: cntr_cgi File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/cntr_cgi.tdf Line: 28
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_rgc.tdf
-    Info (12023): Found entity 1: cmpr_rgc File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/cmpr_rgc.tdf Line: 23
+    Info (12023): Found entity 1: cmpr_rgc File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/cmpr_rgc.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_23j.tdf
-    Info (12023): Found entity 1: cntr_23j File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/cntr_23j.tdf Line: 28
+    Info (12023): Found entity 1: cntr_23j File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/cntr_23j.tdf Line: 28
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_ngc.tdf
-    Info (12023): Found entity 1: cmpr_ngc File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/cmpr_ngc.tdf Line: 23
+    Info (12023): Found entity 1: cmpr_ngc File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/cmpr_ngc.tdf Line: 23
 Info (12033): Analysis and Synthesis generated SignalTap II or debug node instance "auto_signaltap_0"
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2017.05.08.22:30:33 Progress: Loading sld9b93f17c/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2017.05.12.13:12:39 Progress: Loading sld9b93f17c/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -969,18 +969,18 @@ Info (11172): Ident: "alt_sld_fab" instantiated altera_connection_identification
 Info (11172): Alt_sld_fab: Done "alt_sld_fab" with 6 modules, 6 files
 Info (11171): Finished IP generation for the debug fabric: alt_sld_fab.
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld9b93f17c/alt_sld_fab.v
-    Info (12023): Found entity 1: alt_sld_fab File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/alt_sld_fab.v Line: 9
+    Info (12023): Found entity 1: alt_sld_fab File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/alt_sld_fab.v Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab.v
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab.v Line: 9
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab.v Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_ident.sv
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_ident File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_ident.sv Line: 33
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_ident File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_ident.sv Line: 33
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_presplit.sv
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_presplit File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_presplit.sv Line: 3
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_presplit File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_presplit.sv Line: 3
 Info (12021): Found 2 design units, including 1 entities, in source file db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd
-    Info (12022): Found design unit 1: alt_sld_fab_alt_sld_fab_sldfabric-rtl File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 142
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_sldfabric File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 11
+    Info (12022): Found design unit 1: alt_sld_fab_alt_sld_fab_sldfabric-rtl File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 142
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_sldfabric File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 11
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_splitter.sv
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: D:/Develop/FPGA/Project/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: C:/Users/Ruoya/Documents/GitHub/VHDL-Learning/SINE-WAVE-GENERATOR/db/ip/sld9b93f17c/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
 Info (286031): Timing-Driven Synthesis is running on partition "Top"
 Info (13000): Registers with preset signals will power-up high File: c:/intelfpga/16.1/quartus/libraries/megafunctions/sld_buffer_manager.vhd Line: 356
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
@@ -997,9 +997,9 @@ Info (21057): Implemented 956 device resources after synthesis - the final resou
     Info (21061): Implemented 920 logic cells
     Info (21064): Implemented 22 RAM segments
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 729 megabytes
-    Info: Processing ended: Mon May 08 22:30:45 2017
-    Info: Elapsed time: 00:00:29
-    Info: Total CPU time (on all processors): 00:00:50
+    Info: Peak virtual memory: 732 megabytes
+    Info: Processing ended: Fri May 12 13:12:53 2017
+    Info: Elapsed time: 00:00:34
+    Info: Total CPU time (on all processors): 00:00:54
 
 
